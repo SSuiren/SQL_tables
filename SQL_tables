@@ -1,2 +1,3 @@
 use sql3515916;
-create table TE_table (id_movie_reviews int not null, movie_name int not null, movie_description int not null, movie_review int not null)
+create table TE_reviews_on_life (id_movie_reviews int not null, movie_name int not null,movie_name varchar(45) , movie_description int not null, movie_description varchar(100), movie_review int not null, movie_review VARCHAR(1000));
+INSERT INTO TE_reviews_on_life VALUES ('The great gatsby', 'The great gatsby is a movie revolving around gatby a milionare who is trying to intice daisy his crush since he was young.', 'I think the great gatsby was a great movie, the plot was interesting and had and was able to envelope me into its world, leonardo dicaprio was also able to portray gatsby greatly and was the star of the movie.');
