@@ -1,0 +1,2 @@
+use sql3515916;
+create table TE_table (id_movie_reviews int not null, movie_name int not null, movie_description int not null, movie_review int not null)
